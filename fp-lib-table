@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BuckLinReg_5V)(type KiCad)(uri ${KIPRJMOD}/BuckLinReg_5V.pretty)(options "")(descr ""))
+)
