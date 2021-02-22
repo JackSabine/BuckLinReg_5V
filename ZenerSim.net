@@ -1,0 +1,9 @@
+* C:\Users\jack\OneDrive\Documents\GitHub\BuckLinReg_5V\ZenerSim.asc
+XD1 0 Vreg PDZ3.0B
+V1 N001 0 5
+R1 Vreg N001 {Rvar}
+.lib PDZ3_0B.prm
+.step param Rvar list 1k 10k 100k
+.tran 0 0.1m 0m 100n startup
+.backanno
+.end

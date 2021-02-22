@@ -1,0 +1,63 @@
+*
+*******************************************
+*
+*PDZ3.0B
+*
+*NXP Semiconductors
+*
+*Voltage regulator diodes
+*
+*
+*
+*
+* 
+*
+*IR    = 10µA  @ VR = 1V
+*IZSM  = 8,0A  @ tp = 100µs
+*Vzmax = 3,07V @ IZ = 5mA
+*
+*
+*
+*
+* 
+*
+*
+*Package pinning does not match Spice model pinning.
+*Package: SOD323
+*
+*Package Pin 1: Cathode
+*Package Pin 2: Anode
+*
+*
+*
+*
+*Simulator: SPICE2
+*
+*******************************************
+*#
+.SUBCKT PDZ3.0B 1 2
+*
+* The diode D2 does not reflect
+* a physical device. Instead it
+* improves modeling in the reverse
+* mode of operation.
+*
+D1 1 2 DIODE1
+D2 1 2 DIODE2
+*
+.MODEL DIODE1 D
++ IS = 2.19E-17 
++ N = 0.8771 
++ BV = 3.075
++ IBV = 0.005
++ RS = 0.3041 
++ CJO = 3.281E-10 
++ VJ = 0.6542 
++ M = 0.3188 
+.MODEL DIODE2 D
++ IS = 4.794E-10 
++ N = 1.869 
++ RS = 1.306 
+.ENDS
+*
+

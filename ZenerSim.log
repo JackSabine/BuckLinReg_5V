@@ -1,0 +1,24 @@
+Circuit: * C:\Users\jack\OneDrive\Documents\GitHub\BuckLinReg_5V\ZenerSim.asc
+
+.OP point found by inspection.
+.step rvar=1000
+.step rvar=10000
+.step rvar=100000
+
+Date: Sun Feb 21 21:19:03 2021
+Total elapsed time: 0.042 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2040
+traniter = 2040
+tranpoints = 1021
+accept = 1021
+rejected = 0
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1:       9 opcodes  0.1/0.0/[0.0]
+Matrix Compiler2: off  [0.0]/0.1/0.0
+

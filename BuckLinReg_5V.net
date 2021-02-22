@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\jack\OneDrive\Documents\GitHub\BuckLinReg_5V\BuckLinReg_5V.sch)
-    (date "2/13/2021 03:30:37 PM")
+    (date "2/21/2021 09:37:31 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -88,11 +88,11 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 607DA962))
     (comp (ref R16)
-      (value 100k)
+      (value 10k)
       (footprint Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder)
       (datasheet ~)
       (fields
-        (field (name MFPN) RMCF1206JG100K))
+        (field (name MFPN) RMCF1206JT10K0))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 606BFCCF))
@@ -510,7 +510,7 @@
     (comp (ref U7)
       (value LM1084-5.0)
       (footprint Package_TO_SOT_SMD:TO-263-3_TabPin2)
-      (datasheet http://www.ti.com/lit/ds/symlink/lm1085.pdf)
+      (datasheet http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm1084)
       (fields
         (field (name MFPN) LM1084ISX-5.0/NOPB))
       (libsource (lib Regulator_Linear) (part LM1085-5.0) (description "3A 25V Linear Regulator, Fixed Output 5.0V, TO-220/TO-263"))
