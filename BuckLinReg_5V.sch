@@ -210,10 +210,6 @@ Wire Wire Line
 	15325 1375 15325 1325
 Connection ~ 15325 1325
 Wire Wire Line
-	11250 4250 10800 4250
-Wire Wire Line
-	10800 4150 11250 4150
-Wire Wire Line
 	9725 4150 9925 4150
 Wire Wire Line
 	8350 4150 8675 4150
@@ -902,17 +898,6 @@ F 3 "~" H 9625 3575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 602CABE2
-P 11450 4250
-F 0 "J4" H 11558 4431 50  0000 C CNN
-F 1 "1x2 Male" H 11558 4340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11450 4250 50  0001 C CNN
-F 3 "~" H 11450 4250 50  0001 C CNN
-	1    11450 4250
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R15
 U 1 1 60243959
 P 9575 4150
@@ -1495,7 +1480,7 @@ U 1 1 60486F13
 P 1100 5750
 F 0 "NT1" H 1100 5931 50  0000 C CNN
 F 1 "Net-Tie_2" H 1100 5840 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 1100 5750 50  0001 C CNN
+F 2 "BuckLinReg_5V:NetShorter" H 1100 5750 50  0001 C CNN
 F 3 "~" H 1100 5750 50  0001 C CNN
 	1    1100 5750
 	1    0    0    -1  
@@ -1775,4 +1760,50 @@ Wire Wire Line
 	7075 9250 7375 9250
 Wire Wire Line
 	5675 4250 6200 4250
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 603C2A20
+P 11500 4150
+F 0 "J2" H 11580 4142 50  0000 L CNN
+F 1 "796638-4" H 11580 4051 50  0000 L CNN
+F 2 "BuckLinReg_5V:796636-4" H 11500 4150 50  0001 C CNN
+F 3 "~" H 11500 4150 50  0001 C CNN
+	1    11500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4150 11250 4150
+Wire Wire Line
+	11250 4150 11250 4050
+Wire Wire Line
+	11250 4050 11300 4050
+Connection ~ 11250 4150
+Wire Wire Line
+	11250 4150 11300 4150
+Wire Wire Line
+	10800 4250 11250 4250
+Wire Wire Line
+	11250 4250 11250 4350
+Wire Wire Line
+	11250 4350 11300 4350
+Connection ~ 11250 4250
+Wire Wire Line
+	11250 4250 11300 4250
+$Comp
+L Connector:Screw_Terminal_01x04 J4
+U 1 1 6040F530
+P 12275 4150
+F 0 "J4" H 12355 4142 50  0000 L CNN
+F 1 "796634-4" H 12355 4051 50  0000 L CNN
+F 2 "" H 12275 4150 50  0001 C CNN
+F 3 "~" H 12275 4150 50  0001 C CNN
+	1    12275 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12075 4050
+NoConn ~ 12075 4150
+NoConn ~ 12075 4250
+NoConn ~ 12075 4350
+Text Notes 12500 4125 0    50   ~ 0
+Included to be present\non the BOM table
 $EndSCHEMATC

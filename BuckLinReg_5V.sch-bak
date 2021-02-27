@@ -123,8 +123,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 4450 6800 4450
 Wire Wire Line
-	5675 4250 5925 4250
-Wire Wire Line
 	6200 4250 6200 4450
 Wire Wire Line
 	6200 4450 6250 4450
@@ -186,11 +184,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 4100 6850 4150
 Wire Wire Line
-	5925 4300 5925 4250
-Connection ~ 5925 4250
-Wire Wire Line
-	5925 4250 6200 4250
-Wire Wire Line
 	5750 4625 5750 4575
 Connection ~ 5750 4575
 Wire Wire Line
@@ -216,10 +209,6 @@ Wire Wire Line
 Wire Wire Line
 	15325 1375 15325 1325
 Connection ~ 15325 1325
-Wire Wire Line
-	11250 4250 10800 4250
-Wire Wire Line
-	10800 4150 11250 4150
 Wire Wire Line
 	9725 4150 9925 4150
 Wire Wire Line
@@ -262,8 +251,6 @@ Connection ~ 4475 4575
 Wire Wire Line
 	4475 4575 4475 4625
 Wire Wire Line
-	4825 4575 4825 4625
-Wire Wire Line
 	3925 5025 3925 5075
 Wire Wire Line
 	3925 5075 4475 5075
@@ -275,7 +262,6 @@ Wire Wire Line
 	4875 4350 4825 4350
 Wire Wire Line
 	4825 4350 4825 4575
-Connection ~ 4825 4575
 Wire Wire Line
 	9025 4150 9225 4150
 Wire Wire Line
@@ -912,17 +898,6 @@ F 3 "~" H 9625 3575 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J4
-U 1 1 602CABE2
-P 11450 4250
-F 0 "J4" H 11558 4431 50  0000 C CNN
-F 1 "1x2 Male" H 11558 4340 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11450 4250 50  0001 C CNN
-F 3 "~" H 11450 4250 50  0001 C CNN
-	1    11450 4250
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R15
 U 1 1 60243959
 P 9575 4150
@@ -1001,17 +976,6 @@ F 3 "~" H 5950 4625 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP5
-U 1 1 602B47DC
-P 5925 4300
-F 0 "TP5" H 5983 4418 50  0000 L CNN
-F 1 "BOOT" H 5983 4327 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6125 4300 50  0001 C CNN
-F 3 "~" H 6125 4300 50  0001 C CNN
-	1    5925 4300
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector:TestPoint TP6
 U 1 1 602A9E21
 P 6850 4100
@@ -1021,17 +985,6 @@ F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7050 4100 50  0001 C CNN
 F 3 "~" H 7050 4100 50  0001 C CNN
 	1    6850 4100
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 6029636E
-P 4825 4625
-F 0 "TP2" H 4883 4743 50  0000 L CNN
-F 1 "EN" H 4883 4652 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5025 4625 50  0001 C CNN
-F 3 "~" H 5025 4625 50  0001 C CNN
-	1    4825 4625
-	1    0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP1
@@ -1688,26 +1641,8 @@ F 3 "~" H 7575 8825 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7075 9250 7225 9250
-$Comp
-L Connector:TestPoint TP11
-U 1 1 603FCF60
-P 7225 9200
-F 0 "TP11" H 7283 9318 50  0000 L CNN
-F 1 "3V0" H 7283 9227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7425 9200 50  0001 C CNN
-F 3 "~" H 7425 9200 50  0001 C CNN
-	1    7225 9200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7225 9200 7225 9250
-Wire Wire Line
 	7375 8825 7375 8875
 Connection ~ 7375 8875
-Connection ~ 7225 9250
-Wire Wire Line
-	7225 9250 7375 9250
 $Comp
 L Connector:TestPoint TP14
 U 1 1 604CB1A8
@@ -1811,14 +1746,64 @@ Wire Wire Line
 Wire Wire Line
 	8675 4100 8675 4150
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP10
 U 1 1 606CEE09
 P 8675 4100
-F 0 "TP?" H 8733 4218 50  0000 L CNN
+F 0 "TP10" H 8733 4218 50  0000 L CNN
 F 1 "SR+" H 8733 4127 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 8875 4100 50  0001 C CNN
 F 3 "~" H 8875 4100 50  0001 C CNN
 	1    8675 4100
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7075 9250 7375 9250
+Wire Wire Line
+	5675 4250 6200 4250
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 603C2A20
+P 11500 4150
+F 0 "J2" H 11580 4142 50  0000 L CNN
+F 1 "796638-4" H 11580 4051 50  0000 L CNN
+F 2 "BuckLinReg_5V:796636-4" H 11500 4150 50  0001 C CNN
+F 3 "~" H 11500 4150 50  0001 C CNN
+	1    11500 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 4150 11250 4150
+Wire Wire Line
+	11250 4150 11250 4050
+Wire Wire Line
+	11250 4050 11300 4050
+Connection ~ 11250 4150
+Wire Wire Line
+	11250 4150 11300 4150
+Wire Wire Line
+	10800 4250 11250 4250
+Wire Wire Line
+	11250 4250 11250 4350
+Wire Wire Line
+	11250 4350 11300 4350
+Connection ~ 11250 4250
+Wire Wire Line
+	11250 4250 11300 4250
+$Comp
+L Connector:Screw_Terminal_01x04 J4
+U 1 1 6040F530
+P 12275 4150
+F 0 "J4" H 12355 4142 50  0000 L CNN
+F 1 "796634-4" H 12355 4051 50  0000 L CNN
+F 2 "" H 12275 4150 50  0001 C CNN
+F 3 "~" H 12275 4150 50  0001 C CNN
+	1    12275 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12075 4050
+NoConn ~ 12075 4150
+NoConn ~ 12075 4250
+NoConn ~ 12075 4350
+Text Notes 12500 4125 0    50   ~ 0
+Included to be present\non the BOM table
 $EndSCHEMATC
