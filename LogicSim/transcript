@@ -1,0 +1,22 @@
+# vsim -do "C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/temp/setup.do" -c powerController_tb 
+# Start time: 17:55:40 on Mar 01,2021
+# Loading work.powerController_tb
+# Loading work.powerController
+# do C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/temp/setup.do
+#                    0: S O R | D
+#                    0: ------+--
+#                    0: 0 0 1 | 1
+#                   10: 0 0 0 | 1
+#                   20: 1 0 0 | 0
+#                   40: 1 1 0 | 1
+#                   50: 1 0 0 | 1
+#                   70: 0 0 0 | 1
+#                   90: 1 0 0 | 0
+#                  100: 0 0 0 | 1
+# ** Note: $stop    : C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v(68)
+#    Time: 110 ps  Iteration: 0  Instance: /powerController_tb
+# Break in Module powerController_tb at C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v line 68
+# Stopped at C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v line 68
+exit
+# End time: 17:55:57 on Mar 01,2021, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0

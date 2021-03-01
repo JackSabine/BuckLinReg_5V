@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 22 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim
+vpowerController
+Z1 !s110 1614639339
+!i10b 1
+!s100 L]hC3TYnb<[78:N;AH[Vh1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9FzjeEO]_R9:Y>Yfd^>_23
+R0
+w1614638107
+8C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/rtl/powerController.v
+FC:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/rtl/powerController.v
+!i122 0
+L0 1 15
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2020.3;71
+r1
+!s85 0
+31
+Z5 !s108 1614639339.000000
+!s107 C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v|C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/rtl/powerController.v|
+Z6 !s90 C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/rtl/powerController.v|C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v|
+!i113 1
+Z7 tCvgOpt 0
+npower@controller
+vpowerController_tb
+R1
+!i10b 1
+!s100 ha;4>5b?S1_8H`D68HSJb2
+R2
+Iz3n<O=0:9Ol[2fok:oSlA0
+R0
+w1614639330
+8C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v
+FC:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v
+!i122 0
+L0 1 72
+R3
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/sim/powerController_tb.v|C:/Users/jack/OneDrive/Documents/GitHub/BuckLinReg_5V/LogicSim/rtl/powerController.v|
+R6
+!i113 1
+R7
+npower@controller_tb
