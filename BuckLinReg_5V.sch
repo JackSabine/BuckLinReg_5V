@@ -636,9 +636,9 @@ U 1 1 6062EC07
 P 8500 10025
 F 0 "D4" V 8454 10105 50  0000 L CNN
 F 1 "2V4" V 8545 10105 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8500 10025 50  0001 C CNN
-F 3 "https://rocelec.widen.net/view/pdf/girsb18scs/PHGLS19616-1.pdf?t.download=true&u=5oefqw" H 8500 10025 50  0001 C CNN
-F 4 "PDZ2.4B,115" V 8500 10025 50  0001 C CNN "MFPN"
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 8500 10025 50  0001 C CNN
+F 3 "https://rocelec.widen.net/view/pdf/fysgtbvgew/PHGLS29437-1.pdf?t.download=true&u=5oefqw" H 8500 10025 50  0001 C CNN
+F 4 "BZX84-C2V4,215" V 8500 10025 50  0001 C CNN "MFPN"
 	1    8500 10025
 	0    1    1    0   
 $EndComp

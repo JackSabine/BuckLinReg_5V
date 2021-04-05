@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\jack\OneDrive\Documents\GitHub\BuckLinReg_5V\BuckLinReg_5V.sch)
-    (date "4/3/2021 06:00:53 PM")
+    (date "4/5/2021 06:32:29 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -98,7 +98,7 @@
       (tstamp 606BFCCF))
     (comp (ref D4)
       (value 2V4)
-      (footprint Diode_SMD:D_SOD-323_HandSoldering)
+      (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
       (datasheet https://rocelec.widen.net/view/pdf/girsb18scs/PHGLS19616-1.pdf?t.download=true&u=5oefqw)
       (fields
         (field (name MFPN) PDZ2.4B,115))
