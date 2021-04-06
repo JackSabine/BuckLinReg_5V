@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\jack\OneDrive\Documents\GitHub\BuckLinReg_5V\BuckLinReg_5V.sch)
-    (date "4/5/2021 06:32:29 PM")
+    (date "4/5/2021 07:21:02 PM")
     (tool "Eeschema (5.1.8)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -99,9 +99,9 @@
     (comp (ref D4)
       (value 2V4)
       (footprint Package_TO_SOT_SMD:SOT-23_Handsoldering)
-      (datasheet https://rocelec.widen.net/view/pdf/girsb18scs/PHGLS19616-1.pdf?t.download=true&u=5oefqw)
+      (datasheet https://rocelec.widen.net/view/pdf/fysgtbvgew/PHGLS29437-1.pdf?t.download=true&u=5oefqw)
       (fields
-        (field (name MFPN) PDZ2.4B,115))
+        (field (name MFPN) BZX84-C2V4,215))
       (libsource (lib Device) (part D_Zener) (description "Zener diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 6062EC07))
@@ -532,6 +532,8 @@
     (comp (ref Q2)
       (value Si4435FDY)
       (footprint Package_SO:SO-8_3.9x4.9mm_P1.27mm)
+      (fields
+        (field (name MFPN) Si4435FDY))
       (libsource (lib BuckLinReg_5V) (part Si4435FDY) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6059001A))
@@ -539,6 +541,8 @@
       (value INA180A3IDBVR)
       (footprint Package_TO_SOT_SMD:SOT-23-5_HandSoldering)
       (datasheet https://www.ti.com/lit/gpn/ina180)
+      (fields
+        (field (name MFPN) INA180A3IDBVR))
       (libsource (lib BuckLinReg_5V) (part INA180A3IDBVR) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 6068CDD9))
@@ -546,6 +550,8 @@
       (value TLV7011KCKT)
       (footprint Package_TO_SOT_SMD:SOT-23-5_HandSoldering)
       (datasheet http://www.ti.com/lit/gpn/tlv7011)
+      (fields
+        (field (name MFPN) TLV7011DBVR))
       (libsource (lib Comparator) (part TLV7031DBV) (description "Single, 1.6V-6.5V, 315nA Quiescent, Push-Pull Output, Comparator, SOT-23-5/SC-70"))
       (sheetpath (names /) (tstamps /))
       (tstamp 60776FCF))
