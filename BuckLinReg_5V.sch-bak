@@ -1699,6 +1699,18 @@ F 4 "RMCF1206JT10K0" H 7425 9375 50  0001 C CNN "MFPN"
 	1    7425 9375
 	1    0    0    -1  
 $EndComp
-Text Notes 6425 10500 0    50   ~ 0
+Text Notes 6650 10550 0    50   ~ 0
 RC time constant of 1 ms to prevent spikes\nshorter than 1-2 ms from tripping OCP
+$Comp
+L Connector:TestPoint TP13
+U 1 1 60871EC0
+P 7425 9175
+F 0 "TP13" H 7483 9293 50  0000 L CNN
+F 1 "TestPoint" H 7483 9202 50  0000 L CNN
+F 2 "" H 7625 9175 50  0001 C CNN
+F 3 "~" H 7625 9175 50  0001 C CNN
+	1    7425 9175
+	1    0    0    -1  
+$EndComp
+Connection ~ 7425 9175
 $EndSCHEMATC

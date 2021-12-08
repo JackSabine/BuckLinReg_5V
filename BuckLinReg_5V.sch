@@ -1660,7 +1660,7 @@ Wire Wire Line
 Connection ~ 8500 10225
 Wire Wire Line
 	8500 10225 8500 10275
-Text Label 9275 9675 0    50   ~ 0
+Text Label 9600 9675 0    50   ~ 0
 OCP_TRIGGER
 Wire Wire Line
 	7425 9225 7425 9175
@@ -1699,6 +1699,36 @@ F 4 "RMCF1206JT10K0" H 7425 9375 50  0001 C CNN "MFPN"
 	1    7425 9375
 	1    0    0    -1  
 $EndComp
-Text Notes 6425 10500 0    50   ~ 0
+Text Notes 6650 10550 0    50   ~ 0
 RC time constant of 1 ms to prevent spikes\nshorter than 1-2 ms from tripping OCP
+$Comp
+L Connector:TestPoint TP13
+U 1 1 60871EC0
+P 7425 9175
+F 0 "TP13" H 7483 9293 50  0000 L CNN
+F 1 "TestPoint" H 7483 9202 50  0000 L CNN
+F 2 "" H 7625 9175 50  0001 C CNN
+F 3 "~" H 7625 9175 50  0001 C CNN
+	1    7425 9175
+	1    0    0    -1  
+$EndComp
+Connection ~ 7425 9175
+Wire Wire Line
+	9275 9675 9400 9675
+$Comp
+L Connector:TestPoint TP15
+U 1 1 60B92EE2
+P 9400 9550
+F 0 "TP15" H 9458 9668 50  0000 L CNN
+F 1 "TestPoint" H 9458 9577 50  0000 L CNN
+F 2 "" H 9600 9550 50  0001 C CNN
+F 3 "~" H 9600 9550 50  0001 C CNN
+	1    9400 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 9550 9400 9675
+Connection ~ 9400 9675
+Wire Wire Line
+	9400 9675 9600 9675
 $EndSCHEMATC
